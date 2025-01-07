@@ -1,0 +1,3 @@
+<header>,<footer>,<li>,<ol>,<style>,<link>,<img>,<script>,<div>,<button>
+width,height,float,font-family,text-align
+I chose to use javascript and bootstrap to add functionality to the webpage and allow user to interact with the webpage.

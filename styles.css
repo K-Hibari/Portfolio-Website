@@ -1,0 +1,139 @@
+body, html {
+    height: 100%;
+    background-color: black;
+    color: white;
+  }
+
+.parallax {
+    /* The image used */
+    background-image: url('bg.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
+.centered {
+  text-align: left;
+  width: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  float: left;
+}
+
+.align-left {
+  padding-left: 40px;
+  left: 0;
+}
+
+.box {
+  border-radius: 100px;
+  text-align:center;
+  background-color:#191c27;
+  height:900px;
+  width:90%;
+  margin:auto;
+  margin-top:20px;
+  padding-top:30px;
+}
+
+.head {
+  text-align:center;
+  font-family:sans-serif;
+  margin-top:80px;
+}
+
+.pic {
+  width:20%;
+  height:20%;
+  margin-right:200px;
+  float: right;
+}
+
+.shimmyright {
+  background-color:#ffffff00;
+}
+.shimmyright:hover {
+  text-align:right;
+  background-color:#ffffff20;
+}
+.btn-secondary {
+  --bs-btn-active-bg: #ffffff30;
+}
+
+.resumetext {
+  width:400px;
+  font-size:25px;
+  font-family:Comic;
+  margin-left:770px;
+  position:absolute;
+  top:1775px;
+  color:black;
+  text-shadow: 0 0 3px #B00000;
+}
+
+.resume {
+  font-size:25px;
+  text-align:left;
+  padding-left:20px;
+  background-color:#6696a3E0;
+  width:350px;
+  font-family:Courier;
+  margin-left:770px;
+  position:absolute;
+  border-radius:8px;
+  top:1850px;
+  border:2px solid black;
+}
+
+.resume:hover {
+  background-color:#005066;
+
+}
+header {
+  background-color: black;
+}
+footer {
+  padding: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  float:right;
+}
+
+li {
+  float: left;
+  font-size:20px;
+  margin-top: 10px;
+  margin-right:70px;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #A4161A;
+  color: #F695C5;
+}
+
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
