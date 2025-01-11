@@ -10,12 +10,10 @@ function bigImg(x) {
 
   let burgerBtn = document.querySelector(".burger-menu-btn");
   let burgerMenu = document.querySelector(".burger-menu");
-  let trial = document.querySelector(".abouttext1");
 
   let isBurgerOpen = false;
 
   burgerBtn.onclick = function() {
-    trial.style.display = "none";
     if (!isBurgerOpen) {
       burgerMenu.style.display = "block";
       burgerBtn.style.backgroundPosition = "center left 50px, center";
