@@ -180,15 +180,15 @@ header {
 }
 
 .abouttext3 {
-  margin-top:50px;
+  margin-top:40px;
   font-size: clamp(0.8rem, 1.1vw, 1.3rem);
-  color:#666362;
+  color:#c2c2c2;
   font-family: 'Avantgarde';
 }
 
 .abouttext4 {
   font-size: clamp(0.8rem, 1.1vw, 1.3rem);
-  color:#666362;
+  color:#c2c2c2;
   font-family: 'Avantgarde';
 }
 
@@ -365,7 +365,7 @@ header {
   border-radius: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
   height: 80dvh;
   background-color:#191c27;
@@ -407,15 +407,33 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   margin-top: 10px;
+  margin-left:20px;
+  padding:10px;
+}
+
+.projectcmgsoon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 450px;
+  width: 330px;
+  background-color: grey;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-left:20px;
 }
 
 .project:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   margin-top: 0px;
 }
-
-
-
+.projectcmgsoon:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  margin-top: 0px;
+}
 .projimg {
   width: 200px;
 }
@@ -426,11 +444,21 @@ header {
 
 .projectlogos {
   display: flex;
+  margin-left:15px;
+  margin-top:15px;
 }
 
 .projtitle {
   color: black;
   text-align: left;
+  margin-left:15px;
+}
+
+.projtitlecmgsoon {
+  color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projdescription {
@@ -443,15 +471,27 @@ header {
   border-radius: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
-  height: 90dvh;
+  height: 80dvh;
   background-color:#191c27;
   text-align:center;
   width:90%;
   margin:auto;
   margin-top:20px;
   padding-top:30px;
+}
+
+.contactsecondary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.contactphone, .contactemail, .contactig, .contactlink {
+  width: clamp(300px, 40dvw, 40dvw);
 }
 
 .contline {
@@ -461,8 +501,6 @@ header {
   margin: 3px;
   display:inline-block;
 }
-
-
 
 /* footer */
 .iglogo {
@@ -496,15 +534,23 @@ footer {
     .poprole {
       width: 75dvw;
     }
+    .contactsmain {
+      height: 120dvh;
+    }
+
+    .projectsmain {
+      height: 150dvh;
+    }
+
+    .project:hover {
+      margin-bottom: 10px;
+    }
   }
   @media only screen and (max-device-width: 1366px) {
     .parallax {
       background-attachment: scroll;
     }
-    .poprole {
-      color:black;
-      text-shadow: 0 0 3px #FF0000;
-    }
+    
     .popimg {
       width: 60dvw;
     }
