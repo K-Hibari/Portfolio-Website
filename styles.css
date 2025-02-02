@@ -79,7 +79,8 @@ header {
   background-image: url('imgs/bg1.jpg');
   flex-direction: column;
   justify-content: end;
-  align-items: left;
+  align-items: center;
+  padding-bottom: 20px;
 }
 
 .hometext1 {
@@ -94,8 +95,10 @@ header {
   color:white;
   text-shadow: 0 0 3px black;
   font-family:Gill Sans;
-  margin-left: 20dvw;
-  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
 }
 
 .poprole {
@@ -103,8 +106,10 @@ header {
   font-family:Courier New;
   text-shadow: 0 0 3px black;
   width: 650px;
-  margin-left: 20dvw;
   margin-bottom: 15dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .second {
@@ -120,16 +125,19 @@ header {
 }
 
 .resumetext {
-  width: 380px;
+  width: 370px;
   font-size:150%;
   font-family:Comic;
   color:white;
   text-shadow: 0 0 3px black;
+  padding-left: 18px;
+  padding-top: 10px;
+  text-align:center;
 }
 
 .resume {
   font-size:25px;
-  text-align:left;
+  text-align:center;
   background-color:#6696a3E0;
   width:270px;
   font-family:Courier;
@@ -458,14 +466,14 @@ header {
 
 /* footer */
 .iglogo {
-  width:35px;
-  height:35px;
+  width:30px;
+  height:30px;
   margin-right:10px;
 }
 
 .linkedinlogo {
-  width:35px;
-  height:35px;
+  width:30px;
+  height:30px;
 }
 
 .credits {
@@ -479,6 +487,7 @@ footer {
   gap: 5vw;
   align-items: center; 
   flex-wrap: wrap;
+  padding-top: 20px;
 }
 
 
